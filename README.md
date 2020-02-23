@@ -31,14 +31,12 @@ instead of
 
 #### Miscellaneous
 
-For Debugging a Flask App set an environment variable (using CMD) 
+For Debugging a Flask App set an environment variable (using CMD)\n
 [Source][3]
 
 > set FLASK_ENV=development
 
-Sources:
-
-* [1]: https://stackoverflow.com/questions/60131900/weird-is-xhr-error-when-deploying-flask-app-to-heroku
-* [2]: https://github.com/dvf/blockchain/issues/75
-* [3]: https://stackoverflow.com/questions/17309889/how-to-debug-a-flask-app
+[1]: https://stackoverflow.com/questions/60131900/weird-is-xhr-error-when-deploying-flask-app-to-heroku
+[2]: https://github.com/dvf/blockchain/issues/75
+[3]: https://stackoverflow.com/questions/17309889/how-to-debug-a-flask-app
 
