@@ -3,7 +3,8 @@ https://hackernoon.com/learn-blockchains-by-building-one-117428612f46
 
 ## Pitfalls
 
-### Dependency in Flask [1]
+### Dependency in Flask 
+[Source][1]
 
 pip install --upgrade Flask
 
@@ -11,7 +12,8 @@ resolves > AttributeError: 'Request' object has no attribute 'is_xhr'
 
 ---
 
-### NoneType is not iterable when checking Post-Body Parameters [2]
+### NoneType is not iterable when checking Post-Body Parameters 
+[Source][2]
 
 ```python
     def new_transaction():
@@ -29,7 +31,8 @@ instead of
 
 #### Miscellaneous
 
-For Debugging a Flask App set an environment variable (using CMD) [3]
+For Debugging a Flask App set an environment variable (using CMD) 
+[Source][3]
 
 > set FLASK_ENV=development
 
