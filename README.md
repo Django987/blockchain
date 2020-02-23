@@ -16,13 +16,18 @@ https://stackoverflow.com/questions/60131900/weird-is-xhr-error-when-deploying-f
 
 https://github.com/dvf/blockchain/issues/75
 
-def new_transaction():
-    values = request.get_json(force=True)
+
+```python
+    def new_transaction():
+        values = request.get_json(force=True)
+```
 
 instead of 
 
-def new_transaction():
-    values = request.get_json()
+```python
+    def new_transaction():
+        values = request.get_json()
+```
 
 ---
 
