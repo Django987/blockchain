@@ -31,7 +31,7 @@ instead of
 
 #### Miscellaneous
 
-For Debugging a Flask App set an environment variable (using CMD)\n
+For Debugging a Flask App set an environment variable (using CMD)  
 [Source][3]
 
 > set FLASK_ENV=development
