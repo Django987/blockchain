@@ -3,19 +3,15 @@ https://hackernoon.com/learn-blockchains-by-building-one-117428612f46
 
 ## Pitfalls
 
-### Dependency in Flask
+### Dependency in Flask [1]
 
 pip install --upgrade Flask
 
 resolves > AttributeError: 'Request' object has no attribute 'is_xhr'
 
-https://stackoverflow.com/questions/60131900/weird-is-xhr-error-when-deploying-flask-app-to-heroku
-
 ---
-### NoneType is not iterable when checking Post-Body Parameters
 
-https://github.com/dvf/blockchain/issues/75
-
+### NoneType is not iterable when checking Post-Body Parameters [2]
 
 ```python
     def new_transaction():
@@ -33,7 +29,13 @@ instead of
 
 #### Miscellaneous
 
-For Debugging a Flask App
+For Debugging a Flask App set an environment variable (using CMD) [3]
 
-> CMD: set FLASK_ENV=development
+> set FLASK_ENV=development
+
+Sources:
+
+* [1]: https://stackoverflow.com/questions/60131900/weird-is-xhr-error-when-deploying-flask-app-to-heroku
+* [2]: https://github.com/dvf/blockchain/issues/75
+* [3]: https://stackoverflow.com/questions/17309889/how-to-debug-a-flask-app
 
