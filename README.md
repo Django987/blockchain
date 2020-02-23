@@ -27,9 +27,8 @@ instead of
         values = request.get_json()
 ```
 
----
 
-#### Miscellaneous
+## Miscellaneous
 
 For Debugging a Flask App set an environment variable (using CMD)  
 [Source][3]
