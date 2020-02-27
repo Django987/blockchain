@@ -2,11 +2,12 @@ According Blog:
 https://hackernoon.com/learn-blockchains-by-building-one-117428612f46
 
 1. check if python installed 
-* Windows 10 > CMD > ```python -V```
+* Windows 10: open CMD > 
+```shell
+python -V
+```
 
-if not installed
-
-* [Download Windows x86-64 executable installer] [0]
+*not installed > [Download Windows x86-64 executable installer] [0]
 
 ## Pitfalls
 
